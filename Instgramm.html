@@ -1,0 +1,212 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Insta</title>
+     <link rel="shortcut icon" href="1.png" type="image/x-icon">
+
+	<style type="text/css">
+	body{background-color: #eeeeee;
+		padding: 0;
+		margin: 0;
+		 }
+		 #header{
+		 	text-align: center;
+		 	height: 30px;
+		 	width: 100%;
+		 	color: white;
+		 	font-size: 22px;		 	
+             background: linear-gradient(to bottom, rgba(134,165,202,1) 0%,rgba(114,143,190,1) 62%,rgba(114,143,190,1) 62%,rgba(114,143,190,1) 83%);}
+         #content{
+         	border-left: 2px solid #cccccc;
+         	border-right: 2px solid #cccccc;
+         	height: 200%;
+         	width: 70%;
+         	margin: 0 auto;
+         	background-color: #d9d9d9;
+            vertical-align: top;
+         }
+         .search {
+         	margin:0 auto ;
+    width: 300px; /* Ширина поля с кнопкой */
+     /* Параметры рамки */
+    min-height: 30px; /* Минимальная высота */
+   }
+   input[type="search"] {
+   	margin-top: 40px;
+    height: 20px; 
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    /* Убираем рамку в Chrome и Safari */
+    width: 274px; /* Ширина поля */
+     /* Выравнивание по середине */
+   }
+   input[type="submit"] {
+   	vertical-align: middle;
+   	margin-left: none;
+   	width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(search.jpeg) no-repeat 50% 50%; /* Параметры фона */}
+    input[type='text']{
+    	width: 92%;
+    	border: 2px solid #cccccc;
+    	margin: 17px; 
+    	height: 30px;
+    } 
+    	.image{margin-left: 48px;
+    		box-shadow: 0 0 10px;
+    		
+    	}
+        .image1{
+            margin-top: 60px;
+            margin-left: 48px;
+            box-shadow: 0 0 10px;
+            
+        }
+    	#likes{box-shadow: 0 -5 10px;
+    		background-color: white;
+    		height: 40px;
+    		width: 530px;
+    		margin: 0 auto;
+    		border: 2px solid #cccccc;
+    	}
+        .likes{
+            box-shadow: 0 -5 10px;
+            background-color: white;
+            height: 40px;
+            width: 530px;
+            margin: 0 auto;
+            border: 2px solid #cccccc;
+        }
+        .likes img{ position: relative;
+            margin-top: 6px;
+            margin-left: 15px;
+            height: 20px;
+        }
+        .likes1{
+            box-shadow: 0 -5 10px;
+            background-color: white;
+            height: 40px;
+            width: 530px;
+            margin: -5 auto;
+
+            border: 2px solid #cccccc;
+        }
+         .likes1 img{margin-right: 10px;
+         }
+         .likes1 span{margin-right: 10px;}
+
+    	#intext{box-shadow: 0 5 10px;
+    		background-color: white;
+    		height: 60px;
+    		width: 530px;
+    		margin: -5px auto;
+    		border: 2px solid #cccccc;
+    	}
+        .user{vertical-align:top;
+            width:40px; 
+            height:37px;
+        }   
+    .comment{top:3px;
+    vertical-align:top;}
+
+    .ava{ 
+        color: blue;
+        position: relative;
+        top: 74px;
+        float: left;
+        margin-left: 0px;
+        
+    }
+    #ava{
+        color: blue;
+        float: left;
+        position: relative;
+        top: 755px;
+        margin-left: -120px;
+    }
+    
+    .ava img{
+        height:40px; 
+        width:40px;
+    }
+    #ava img{
+        height:40px; 
+        width:40px;
+        
+    }
+    .ava span{
+        margin-bottom: 20px;
+        vertical-align:bottom;
+        margin-right: 5px;        
+    }
+
+    #ava span{
+        margin-bottom: 20px;
+        vertical-align:bottom;
+        margin-right: 5px;        
+    }
+
+    .avatext{ float: left;
+       
+    }
+    
+    
+    form p{
+        text-align: center;
+        margin: 15px;
+        border: none;
+        height: 36px;
+    }
+    input[type="button"]{
+     border: none;
+        height: 36px;
+        width: 108px;
+        color: grey;
+        background: linear-gradient(to bottom, rgba(254,254,254,1) 0%,rgba(209,209,209,1) 47%,rgba(209,209,209,1) 74%,rgba(226,226,226,1) 100%);
+                    box-shadow: 0 0 10px;
+                    outline: none;
+
+
+    }
+    #container{
+        width: 900px;
+        margin: 0 auto;
+    }
+	</style>
+</head>
+<body> 
+
+	<div id='header'> Instagram</div>
+
+    <div id='container'>
+
+    <div class='ava'> <div class='avatext'>vladyslav<br><span style='color: grey; font-size: 14px'>17 hours ago</span></div><img src="Vlad.jpg">
+</div>
+
+    <div id='ava'>    <div class='avatext'>vladyslav<br><span style='color: grey; font-size: 14px'>17 hours ago</span></div><img src="Vlad.jpg">
+</div>
+
+	<div id="content">
+		<form>
+    <div class="search">
+     <input type="search" name="q">
+     <input type="submit" value="">
+        </div>
+  </form>
+<img class='image' src="poker.jpg">
+<div class='likes'><img src="like.jpg"></div>
+<div id='intext'><input type='text'> </div>
+<img class='image1' src="poker.jpg">
+<div class='likes'><img src="like.jpg"></div>
+<div class='likes1'><img class='user' src="bro.jpg"><span style='color: blue'>Владимир</span><span class='comment'>Жестко ты его тогда обиграл!</span></div>
+<div class='likes1'><img class='user' src="vlad.jpg"><span style='color: blue'>Владислав</span><span class='comment'>Да он вообще играть не умеет!</span></div>
+ <form>
+   <p><input type="button" value=" Load more"></p>
+  </form>
+</div>
+</div>
+
+
+</body>
+</html>
